@@ -12,8 +12,9 @@ const Home = () => {
    
     return (
         <section>
-            <div className='row'>
-                <div className='col s12 m12 l4 light-blue darken-4'>
+            <div className='row sameHeight'>
+                <div className='col s12 m12 l4 light-blue darken-3'>
+                   
                     <Profile />
                     <Contact />
                     <Skills />

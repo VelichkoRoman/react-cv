@@ -15,16 +15,15 @@ function App() {
       <div className="container">
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/" element={<Home />} />
-          < Route 
+          
+          {/* < Route 
           path = "*"
             element ={ 
               < main  style = { {  padding : "1rem"  } } > 
                 < p > Здесь ничего нет! < / p > 
               < / main > 
             } 
-          / > 
+          / >  */}
         </Routes>
       </div>
     </div>
