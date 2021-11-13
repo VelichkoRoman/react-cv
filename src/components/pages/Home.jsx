@@ -1,34 +1,33 @@
 import React from "react";
 
-import Profile from "./profile/Profile";
-import Contact from "./contact/Contact";
-import Skills from "./skills/Skills";
-import About from "./about/About";
-import Education from "./education/Education";
-import Experience from "./experience/Experience";
-import Portfolio from "./portfolio/Portfolio";
+import PagesExperience from "./experience/Experience";
+import PagesSkills from "./skills/Skills";
+import PagesProfile from "./profile/Profile";
+import PagesContact from "./contact/Contact";
+import PagesAbout from "./about/About";
+import PagesEducation from "./education/Education";
+import PagesPortfolio from "./portfolio/Portfolio";
 
-const Home = () => {
+const PagesHome = () => {
    
     return (
         <section>
             <div className='row sameHeight'>
                 <div className='col s12 m12 l4 light-blue darken-3'>
-                   
-                    <Profile />
-                    <Contact />
-                    <Skills />
+                    
+                    <PagesProfile />
+                    <PagesContact />
+                    <PagesSkills />
                 </div>
                 <div className='col s12 m12 l8 white'>
-                    <About />
-                    <Education />
-                    <Experience />
-                    <Portfolio />
-
+                    <PagesAbout />
+                    <PagesEducation />
+                    <PagesExperience />
+                    <PagesPortfolio />
                 </div>
             </div>
         </section>
     )
 }
 
-export default Home;
+export default PagesHome;
